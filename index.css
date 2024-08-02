@@ -1,0 +1,43 @@
+body {
+    background-image: url("240_F_545482293_Fkv6uM2SRaA3vTwDuCDAq8Et4s5Y2bbJ.jpg"); /* add background image instead of a solid colour*/
+    background-size:cover; /*stretch the background image to fit the whole page*/
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+
+}
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(155, 14, 14);
+    text-align: center;
+    font-size: 50px;
+    border-style:groove;
+    background-color:floralwhite;
+    align-items: center;
+    display:inline-block;
+    justify-content: center;
+}
+
+#message-el {
+    font-style: italic; /*update the default font style to italic*/
+}
+button {
+    width: 200px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color:whitesmoke;
+    background-color:rgb(155, 14, 14);
+    border:none;       /*remove default border*/
+    border-radius: 3px; /*update the border to not have sharp corners*/
+    
+}
+button:hover{
+    background-color: whitesmoke;
+    color: black;
+   }
